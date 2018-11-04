@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/addRecordingScheduleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textSize = "22sp"
+        android:gravity = "center"
+        android:background="@color/mist"
+        android:textColor="@android:color/black"
+        android:text="Add Recording Schedule" />
+
+    <TextView
+        android:id="@+id/startDateDialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="49dp"
+        android:gravity="center_vertical"
+        android:hint="Start Date"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/endDateDialog"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal = "16dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/startDateDialog"
+        android:gravity="center_vertical"
+        android:hint="End Date"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/endDateDialog"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelRecordingScheduleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button"
+            android:layout_weight="0.5"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/addRecordingScheduleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Add" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

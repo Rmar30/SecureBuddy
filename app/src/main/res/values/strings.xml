@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SecureBuddy</string>
+    <string name="title_home">Home</string>
+    <string name="title_recordings">Recordings</string>
+    <string name="title_alarms">Scheduler</string>
+
+    <string name="addRecordingSchedule">Add Recording Schedule</string>
+
+    <!-- Alert Messages -->
+    <string name="deleteConfirmationTitle">Delete Confirmation</string>
+    <string name="deleteConfirmationMessage">Are you sure you want to delete?</string>
+    <string name="validationAlarmPast">Date Time Cannot Be Set To The Past</string>
+    <string name="validationAlarmInterval">End Date Time Cannot Be Greater Than Start Date Time</string>
+    <string name="validationAlarmOverlap">Date Time Period Overlaps With Another Alarm</string>
+    <string name="validationAlarmDateTimeIdentical">Date Times Cannot Be The Same</string>
+
+
+
+</resources>

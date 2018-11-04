@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/fileView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:scaleType="fitXY"
+        android:contentDescription="Default Video Icon"
+        app:srcCompat="@drawable/ic_videocam_black_24dp" />
+
+    <TextView
+        android:id="@+id/fileDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/fileDeleteButton"
+        android:layout_marginStart="80dp"
+        android:textStyle="bold"
+        android:text="Recording Date" />
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fileDate"
+        android:layout_below="@+id/fileDate"
+        android:text="Recording Size" />
+
+
+    <Button
+        android:id="@+id/fileDeleteButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:text="Delete" />
+
+
+</RelativeLayout>
